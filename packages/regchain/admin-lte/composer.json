@@ -1,12 +1,12 @@
 {
     "name": "regchain/admin-lte",
-    "description": ":description",
-    "license": "license",
+    "description": ":admin LTe",
+    "license": "MIT",
     "authors": [
         {
-            "name": "author name",
-            "email": "author email",
-            "homepage": "author homepage"
+            "name": "Tonny H. Soerojo",
+            "email": "tonny@soerojo.com",
+            "homepage": "http://www.soerojo.com"
         }
     ],
     "homepage": "https://github.com/regchain/admin-lte",
