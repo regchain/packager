@@ -1,0 +1,41 @@
+{
+    "name": "regchain/adminlte",
+    "description": ":description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "author name",
+            "email": "author email",
+            "homepage": "author homepage"
+        }
+    ],
+    "homepage": "https://github.com/regchain/adminlte",
+    "keywords": ["Laravel", "adminlte"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "orchestra/testbench": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "regchain\\adminlte\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "regchain\\adminlte\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "regchain\\adminlte\\adminlteServiceProvider"
+            ],
+            "aliases": {
+                "adminlte": "regchain\\adminlte\\Facades\\adminlte"
+            }
+        }
+    }
+}

@@ -150,6 +150,7 @@ return [
         /*
          * Package Service Providers...
          */
+        regchain\adminlte\adminlteServiceProvider::class,
         // regchain\admin-lte\admin-lteServiceProvider::class,
 
         /*

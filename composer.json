@@ -25,6 +25,7 @@
             "database/factories"
         ],
         "psr-4": {
+            "regchain\\adminlte\\": "packages/regchain/adminlte/src",
             "regchain\\admin-lte\\": "packages/regchain/admin-lte/src",
             "regchain\\adminltx\\": "packages/regchain/adminltx/src",
             "App\\": "app/"
@@ -32,6 +33,7 @@
     },
     "autoload-dev": {
         "psr-4": {
+            "regchain\\adminlte\\": "packages/regchain/adminlte/src",
             "regchain\\admin-lte\\": "packages/regchain/admin-lte/src",
             "regchain\\adminltx\\": "packages/regchain/adminltx/src",
             "Tests\\": "tests/"
